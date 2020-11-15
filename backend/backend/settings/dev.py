@@ -11,6 +11,8 @@ ALLOWED_HOSTS = ['*']
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
+CORS_ORIGIN_ALLOW_ALL = True
+
 
 try:
     from .local import *
