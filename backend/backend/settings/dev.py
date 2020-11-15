@@ -12,6 +12,11 @@ ALLOWED_HOSTS = ['*']
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 CORS_ORIGIN_ALLOW_ALL = True
+CORS_URLS_REGEX = r'^/api/v2/'
+
+HEADLESS_PREVIEW_CLIENT_URLS = {
+    'default': 'http://localhost:8020/',
+}
 
 
 try:

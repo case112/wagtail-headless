@@ -52,6 +52,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'corsheaders',
+    'wagtail_headless_preview',
 ]
 
 MIDDLEWARE = [
